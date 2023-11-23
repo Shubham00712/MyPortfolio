@@ -1,0 +1,33 @@
+.about{
+    background-color: rgb(211, 211, 211);
+    padding: 3vh 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about p{
+    margin: 0;
+    width: 80vw;
+    margin-left: 10vw;
+    text-align: center;
+    font-size: medium;
+}
+
+.about h1{
+    margin: 0;
+    color: maroon;
+}
+
+.about img{
+    display: none;
+}
+
+@media screen and (max-width:1000px) {
+    .deskimg{
+        display: none;
+    }
+    .about p{
+        width: 80vw;
+        margin-left: 10vw;
+    }
+}

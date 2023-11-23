@@ -1,0 +1,70 @@
+.skills{
+    background-color: rgb(211, 211, 211);
+    padding-bottom: 1vh;
+}
+
+.skills h1{
+    text-align: center;
+    margin: 0;
+    color: maroon;
+}
+
+.info{
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+.info p b{
+    font-size: 1.2rem;
+    font-style: italic;
+    color: brown;
+    text-shadow: 1px 0 black;
+}
+
+.info p{
+    margin: 0;
+    font-size: 1rem;
+}
+
+.projects{
+    margin: 0;
+    padding: 0 2vw
+}
+
+.projects p b{
+    font-size: initial;
+    color: initial;
+    text-shadow: none;
+}
+
+.projects li{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px 0;
+}
+
+.projects h4,.projects p{
+    margin: 2px 0;
+    display: inline;
+}
+
+.projects p{
+    width: 60vw;
+}
+
+.projects a{
+    text-decoration: underline;
+    color: black;
+    width: 10vw;
+    text-align: right;
+}
+
+.projects a:hover{
+    font-weight: bolder;
+}
+
+@media screen and (max-width:800px) {
+    .projects{
+        padding: 0;
+    }
+}

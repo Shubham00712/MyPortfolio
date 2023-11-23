@@ -1,0 +1,123 @@
+.main{
+    text-align: center;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.main h1{
+    color: aliceblue;
+    margin: 0;
+    padding: 2vh 0;
+}
+
+form{
+    width: 60vw;
+    margin-left: 20vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+form label{
+    display: block;
+    text-align: left;
+    width: 10vw;
+    color: aliceblue;
+    font-size: 1.2rem;
+    /* margin-left: 10vw; */
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+form input{
+    width: 40vw;
+    padding:4px;
+    margin: 1px 0;
+    /* border: 1px solid black; */
+    font-size: 1rem;
+    opacity: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0);
+    border: 1px solid white;
+}
+form textarea{
+    resize: none;
+    width: 40vw;
+    /* height: 12vh; */
+    padding:4px;
+    margin: 1px 0;
+    border: 1px solid white;   
+    margin-left: 0;
+    font-size: 1rem;
+    opacity: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0);
+}
+
+.links{
+    margin-top: 2vw;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.links a{
+    width: 6vw;
+}
+
+a img{
+    width: 4vw;
+    border-radius: 50%;
+    /* background-color: white; */
+}
+
+a img:hover{
+    width: 5vw;
+    margin-top: -1vh;
+}
+
+#submitbtn{
+    width:20vw;
+    margin-top: 2vh;
+    /* margin-bottom: 1vh; */
+    color:black;
+    font-size:large;
+    font-weight: 500;
+    background-color:darkgrey;
+    margin-left: 20vw;
+}
+
+#submitbtn:hover{
+    font-weight: 600;
+    width: 20.5vw;
+    margin-left: 19.75vw
+}
+
+@media screen and (max-width:700px) {
+    form{
+        width: 80vw;
+        margin-left: 10vw;
+    }
+    form label{
+        width: 20vw;
+        font-size: 1rem;
+    }
+    form input,form textarea{
+        width: 50vw;
+        font-size: 0.9rem;
+    }
+    #submitbtn{
+        width: 30vw;
+        margin-left: 25vw;
+        font-size: medium;
+    }
+    #submitbtn:hover{
+        font-weight: 600;
+        width: 30.5vw;
+        margin-left: 24.75vw;
+    }
+    a img:hover{
+        margin-top: -0.5vh;
+    }
+}

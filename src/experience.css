@@ -1,0 +1,47 @@
+.expmain{
+    background-color: rgb(211,211,211);
+}
+
+.expmain h1{
+    text-align: center;
+    margin:0;
+    color:maroon;
+}
+
+.expmain h2{
+    margin: 1vh 0;
+    color: brown;
+    text-shadow: 1px 1px black;
+}
+
+.exp{
+    margin-left: 10vw;
+    width: 80vw;
+}
+
+.role{
+    display: flex;
+    justify-content: space-between;
+}
+
+.role h3,.role p{
+    margin: 0;
+    font-style: italic;
+}
+
+.role h3{
+    font-size: 1rem;
+}
+
+.role p{
+    font-size: 0.9rem;
+}
+
+.workdone li{
+    font-size: 0.9rem;
+}
+
+.workdone ul{
+    margin-top: 1vh;
+    margin-bottom: 0;
+}
